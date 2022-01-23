@@ -127,13 +127,7 @@ export class ProfitChartComponent implements AfterViewInit, OnDestroy, OnChanges
           barWidth: '20%',
           itemStyle: {
             normal: {
-              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                offset: 0,
-                color: eTheme.secondLineGradFrom,
-              }, {
-                offset: 1,
-                color: eTheme.secondLineGradTo,
-              }]),
+              color: '#8755fb',
             },
           },
           data: this.profitChartData.data[1],
@@ -144,13 +138,7 @@ export class ProfitChartComponent implements AfterViewInit, OnDestroy, OnChanges
           barWidth: '20%',
           itemStyle: {
             normal: {
-              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                offset: 0,
-                color: eTheme.thirdLineGradFrom,
-              }, {
-                offset: 1,
-                color: eTheme.thirdLineGradTo,
-              }]),
+              color: '#f862b0',
             },
           },
           data: this.profitChartData.data[2],

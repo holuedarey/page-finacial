@@ -22,9 +22,35 @@ $nb-themes: nb-register-theme((
   slide-out-background: #f7f9fc,
   slide-out-shadow-color: 0 4px 14px 0 #8f9bb3,
   slide-out-shadow-color-rtl: 0 4px 14px 0 #8f9bb3,
+
+
+
+  color-primary-100: #faf7ff,
+    // <- primary violet shades
+    color-primary-200: #ece3ff,
+    color-primary-300: #d5bfff,
+    color-primary-400: #b18aff,
+    color-primary-500: #a16eff,
+    color-primary-600: #7b51db,
+    color-primary-700: #5a37b8,
+    color-primary-800: #3e2494,
+    color-primary-900: #29157a,
+
 ), default, default);
 
 $nb-themes: nb-register-theme((
+
+  color-primary-100: #faf7ff,
+  // <- primary violet shades
+  color-primary-200: #ece3ff,
+  color-primary-300: #d5bfff,
+  color-primary-400: #b18aff,
+  color-primary-500: #a16eff,
+  color-primary-600: #7b51db,
+  color-primary-700: #5a37b8,
+  color-primary-800: #3e2494,
+  color-primary-900: #29157a,
+  
   layout-padding-top: 2.25rem,
 
   menu-item-icon-margin: 0 0.5rem 0 0,
@@ -46,6 +72,18 @@ $nb-themes: nb-register-theme((
 ), cosmic, cosmic);
 
 $nb-themes: nb-register-theme((
+
+  color-primary-100: #faf7ff,
+  // <- primary violet shades
+  color-primary-200: #ece3ff,
+  color-primary-300: #d5bfff,
+  color-primary-400: #b18aff,
+  color-primary-500: #a16eff,
+  color-primary-600: #7b51db,
+  color-primary-700: #5a37b8,
+  color-primary-800: #3e2494,
+  color-primary-900: #29157a,
+  
   layout-padding-top: 2.25rem,
 
   menu-item-icon-margin: 0 0.5rem 0 0,
